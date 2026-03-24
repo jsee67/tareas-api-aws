@@ -71,4 +71,10 @@ app.MapDelete("/tareas/{id}", async (Guid id, NpgsqlDataSource db) =>
     return rows == 0 ? Results.NotFound(new { error = "Tarea no encontrada" }) : Results.Ok(new { message = "Tarea eliminada" });
 });
 
+app.MapGet("/version", () => Results.Ok(new { 
+    version = "2.0", 
+    deployment = "GitHub Actions + ECS Fargate",
+    timestamp = DateTime.UtcNow 
+}));
+
 app.Run();
