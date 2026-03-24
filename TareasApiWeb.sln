@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareasApiWeb", "TareasApiWeb.csproj", "{811A6D10-262D-2CE4-190C-06DA0DCDD9EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{811A6D10-262D-2CE4-190C-06DA0DCDD9EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811A6D10-262D-2CE4-190C-06DA0DCDD9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811A6D10-262D-2CE4-190C-06DA0DCDD9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811A6D10-262D-2CE4-190C-06DA0DCDD9EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E45E1FE0-BEC9-497D-B847-621C8DA8C3A3}
+	EndGlobalSection
+EndGlobal

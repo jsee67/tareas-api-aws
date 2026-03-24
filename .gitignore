@@ -1,0 +1,30 @@
+# Build
+bin/
+obj/
+
+# Secrets y credenciales - NUNCA al repo
+*.env
+.env*
+env.json
+policy.json
+gh-policy.json
+sqs-policy.json
+sqs-receive-policy.json
+lambda-deploy-policy.json
+task-definition.json
+aws-lambda-tools-defaults.json
+
+# AWS credentials locales
+.aws/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
